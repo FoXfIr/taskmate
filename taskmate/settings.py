@@ -32,7 +32,7 @@ DEBUG = env('DJANGO_DEBUG')
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1",
                  "taskmate-test.up.railway.app"]
-CSRF_TRUSTED_ORIGIN = ['https://taskmate-test.up.railway.app/']
+CSRF_TRUSTED_ORIGIN = ['https://taskmate-test.up.railway.app']
 
 
 # Application definition
