@@ -59,7 +59,7 @@
         </td>
       </tr>
       {% else %}
-      <tr class="table">
+      <tr class="table-danger">
         <td class="col-7">{{ obj.task }}</td>
         <td class="col-3">
           <a href=" {% url 'complete_task' obj.id %}"
